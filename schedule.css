@@ -1,0 +1,75 @@
+.column1{
+			width: 30%;
+			float: left;
+			background-color: white;
+			height: auto;
+		}
+.column2{
+			width: 100%;
+			
+			background-color: white;
+			height: auto;
+		}
+
+.userimg {
+    		position: center;
+    		width: 100%;
+    		background: #fff;
+    	}
+
+ .home_profile input{
+  width: 60%;
+  box-sizing: border-box;
+  padding: 10px 3px;
+  margin-top: 20px;
+  outline: none;
+  border: 2px solid yellowgreen;
+  background: #f1f1f1;
+  opacity: 0.8;
+  border-radius: 10px;
+  font-size: 16px;
+  color: #000;
+ }
+ .home_profile input:hover{
+  background: yellowgreen;
+  opacity: 0.8; 
+}
+.dt{
+      width: 205px;
+      margin-top: 10px;
+      float: right;
+      margin-right: 10px;
+      overflow: hidden;
+      box-sizing: border-box;
+      border-bottom: 2px solid yellowgreen;
+      color: black;
+
+      font-family: sans-serif;
+      font-size: 28px;
+    }
+.steps img{
+      margin-top: 100px;
+      width: 50%;
+      text-align: center;
+    }
+
+.column2 input[type=button]
+{
+  background-color: orange;
+  color: white;
+  padding: 4px 16px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  margin-right: 400px; 
+  margin-bottom: 100px;
+  box-sizing: border-box; 
+  border-radius: 5px;
+  transition-duration: 0.4s;
+  cursor: pointer; 
+}
+
+input[type=button]:hover
+{
+  background-color: green;
+}

@@ -1,0 +1,72 @@
+.column1{
+	width: 30%;
+	float: left;
+	height: auto;
+}
+.column2{
+	width: 70%;
+	float: left;
+	height: auto;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: darkred;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px 17px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: yellowgreen;
+  color: white;
+}
+.userimg {
+
+    position: center;
+    width: 100%;
+
+    background: #fff;
+
+  }
+ .home_profile input{
+  width: 60%;
+  box-sizing: border-box;
+  padding: 10px 3px;
+  margin-top: 20px;
+  outline: none;
+  border: 2px solid yellowgreen;
+  background: #f1f1f1;
+  opacity: 0.8;
+  border-radius: 10px;
+  font-size: 16px;
+  color: #000;
+ }
+ .home_profile input:hover{
+  background: yellowgreen;
+  opacity: 0.8; 
+}
+
+.dt{
+  width: 205px;
+  margin-top: 10px;
+  float: right;
+  margin-right: 10px;
+  overflow: hidden;
+  box-sizing: border-box;
+  border-bottom: 2px solid yellowgreen;
+  color: black;
+
+  font-family: sans-serif;
+  font-size: 28px;
+}

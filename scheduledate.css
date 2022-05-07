@@ -1,0 +1,213 @@
+.topnav {
+  overflow: hidden;
+  background-color: darkred;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 16px 18px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: yellowgreen;
+  color: black;
+}
+.column1{
+      width: 30%;
+      float: left;
+      background-color: white;
+      height: auto;
+    }
+.column2{
+      width: 100%;
+      float left;
+      background-color: white;
+      height: auto;
+    }
+
+.userimg {
+        position: center;
+        width: 100%;
+        background: #fff;
+      }
+
+.home_profile input{
+        width: 60%;
+        box-sizing: border-box;
+        padding: 10px 3px;
+        margin-top: 20px;
+        outline: none;
+        border: 2px solid yellowgreen;
+        background: #f1f1f1;
+        opacity: 0.8;
+        border-radius: 10px;
+        font-size: 16px;
+        color: #000;
+    }
+
+.home_profile input:hover{
+      background: yellowgreen;
+        opacity: 0.8; 
+    }
+
+.dt{
+      width: 205px;
+      margin-top: 10px;
+      float: right;
+      margin-right: 10px;
+      overflow: hidden;
+      box-sizing: border-box;
+      border-bottom: 2px solid yellowgreen;
+      color: black;
+
+      font-family: sans-serif;
+      font-size: 28px;
+    }
+.availabletime{
+      margin-top: 10px;
+      color: darkred;
+      font-size: 36px;
+}
+#selectdate{
+  width: 20%;
+  padding: 8px 4px;
+  margin-bottom: 30px;
+}
+#availablegame select{
+  width: 20%;
+  padding: 8px 4px;
+  margin-bottom: 30px;
+}
+.checkboxes{
+  text-align: center;
+  width: 85%;
+}    
+
+
+.wrapper_timeslot {
+  
+  box-sizing: border-box;
+  width: 110%;
+  margin-left: 145px;
+  align-items: center;
+}
+
+.wrapper_timeslot .title {
+  font-size: 36px;
+  color: darkred;
+  font-weight: 170;
+  text-align: center;
+  margin-bottom: 25px;
+  margin-right: 250px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 290px;
+  margin-right: 180px;
+}
+
+.container .option_item {
+  display: block;
+  position: relative;
+  width: 170px;
+  height: 120px;
+  margin: 0px;
+}
+
+.container .option_item .checkbox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  opacity: 0;
+}
+
+.option_item .option_inner {
+  width: 60%;
+  height: 35%;
+  background: yellowgreen;
+  border-radius: 2px;
+  text-align: center;
+  padding: 15px 10px;
+  cursor: pointer;
+  color: #585c68;
+  display: block;
+  border: 3px solid yellowgreen;
+  position: relative;
+}
+
+.option_item .option_inner .icon {
+  margin-bottom: 5px;
+}
+
+
+
+.option_item .option_inner .name {
+  
+  border-color: #3b5999;
+  color: #3b5999;
+}
+
+.option_item .option_inner .tickmark {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  border: 10px solid;
+  border-color: #000 transparent transparent #000;
+  display: none;
+}
+
+.option_item .option_inner .tickmark:before {
+  content: "";
+  position: absolute;
+  top: -18px;
+  left: -18px;
+  width: 15px;
+  height: 5px;
+  border: 3px solid;
+  border-color: transparent transparent #fff #fff;
+  transform: rotate(-45deg);
+}
+
+.option_item .checkbox:checked ~ .option_inner .tickmark {
+  display: block;
+  border-color: #3b5999 transparent transparent #3b5999;
+}
+.button{
+  margin-top: 70px;
+  text-align: center;
+  margin-bottom: 130px;
+}
+input[type=submit]
+{
+  background-color: orange;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  margin-left: 385px;
+  transition-duration: 0.4s;
+  cursor: pointer; 
+}
+
+input[type=submit]:hover
+{
+  background-color: green;
+}
+#continue{
+  float: right;
+  margin-top: 40px;
+}

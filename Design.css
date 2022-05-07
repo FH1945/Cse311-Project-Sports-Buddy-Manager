@@ -1,0 +1,88 @@
+
+body{
+  background-color: yellowgreen;
+  background-size: cover;
+}
+.login_bar{
+  box-sizing: border-box;
+  margin-top: 20px;
+  height: 200px;
+  border-bottom: 3px solid grey ;
+}
+
+.logo img{
+  position: sticky;
+  margin-left: 50px;
+  margin-top: 10px;
+  float: left;
+  width: 200px;
+  height: auto;
+}
+.login{
+  float: right;
+  margin-right: 70px;
+}
+#login_btn{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px 5px;
+  background: rgba(0,0,0,0.10);
+  outline: none;
+  border: none;
+  margin-left: 90px;
+  color: yellow;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+#login_btn:hover{
+  background-color: green;
+}
+
+.regist{
+  
+  margin: auto;
+  float: right;
+  margin-right: 70px;
+  color: black;
+  margin-top: 10px;
+}
+
+input[type=text],input[type=number],input[type=email],input[type=password]{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px 5px;
+  background: rgba(0,0,0,0.10);
+  outline: none;
+  border: none;
+
+  border-bottom: 1px dotted black;
+  color: black;
+  border-radius: 0;
+  margin: 5px;
+  font-size: 17px;
+}
+select{
+  padding: 8px 5px;
+  width: 49%;
+  font-size: 17px;
+  background: rgba(0,0,0,0.10);
+  outline: none;
+}
+#register_btn{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px 5px;
+  background: rgba(0,0,0,0.10);
+  outline: none;
+  border: none;
+  margin-left: 90px;
+  color: yellow;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+#register_btn:hover{
+  background-color: green;
+}
+

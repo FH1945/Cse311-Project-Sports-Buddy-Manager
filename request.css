@@ -1,0 +1,200 @@
+	.column1{
+	width: 30%;
+	float: left;
+	height: auto;
+}
+.column2{
+	width: 40%;
+	float: left;
+  
+	height: auto;
+}
+.column3{
+	width: 30%;
+	
+	float :left;
+
+	height: auto;
+}
+.topnav {
+  overflow: hidden;
+  background-color: darkred;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px 17px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: yellowgreen;
+  color: white;
+}
+.userimg {
+
+    position: center;
+    width: 100%;
+
+    background: #fff;
+
+  }
+ .home_profile input{
+  width: 60%;
+  box-sizing: border-box;
+  padding: 10px 3px;
+  margin-top: 20px;
+  outline: none;
+  border: 2px solid yellowgreen;
+  background: #f1f1f1;
+  opacity: 0.8;
+  border-radius: 10px;
+  font-size: 16px;
+  color: #000;
+ }
+ .home_profile input:hover{
+  background: yellowgreen;
+  opacity: 0.8; 
+}
+
+.dt{
+  width: 205px;
+  margin-top: 10px;
+  float: right;
+  margin-right: 10px;
+  overflow: hidden;
+  box-sizing: border-box;
+  border-bottom: 2px solid yellowgreen;
+  color: black;
+
+  font-family: sans-serif;
+  font-size: 28px;
+}
+.create_team select{
+  padding: 12px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border: 2px solid yellowgreen;
+  border-radius: 4px;
+}
+
+#fetch_data{
+  box-sizing: content-box;
+  
+  margin-top: 30px;
+}
+
+
+#myInput {
+
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 80%;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 3px solid yellowgreen;
+  margin-bottom: 12px;
+}
+
+#myTable {
+   
+  border-collapse: collapse;
+  width: 500px;
+  border-radius: 5px;
+  border: 3px solid yellowgreen;
+  font-size: 16px;
+}
+
+#myTable th{
+  text-align: left;
+  padding: 12px;
+  background-color: yellowgreen;
+}
+
+
+#myTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+}
+
+
+#myTable tr.header, #myTable tr:hover {
+  background-color: #f1f1f1;
+}
+
+.requests{
+  box-sizing: border-box;
+  float: right;
+  margin-top: 130px;
+  margin-right: 10px;
+}
+
+
+.request_status {
+  box-sizing: border-box;
+  border-bottom-color: yellowgreen;
+  width: 340px;
+  border-radius: 5px;
+  
+  font-size: 16px;
+}
+#reqTable th{
+  text-align: left;
+  padding: 12px;
+  width: 100%;
+  background-color: yellowgreen;
+}
+#reqTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+#reqTable tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#reqTable input{
+  box-sizing: border-box;
+  border-collapse: collapse;
+  width: 100%;
+  padding: 5px;
+  height: 100%;
+  border-radius: 3px;
+  border: 2px solid yellowgreen;
+  font-size:16px;
+  font-style: bold;
+}
+#accept:hover{
+ background: green;
+}
+#reject:hover{
+ background: red;
+}
+
+#reqTable tr.rheader, #reqTable tr:hover {
+  background-color: #f1f1f1;
+}
+
+.create_team{
+  margin-top: 30px;
+  float: left;
+
+}
+.createteam{
+  width: 50%;
+  margin-left: 100px;
+  box-sizing: border-box;
+  padding: 12px;
+}

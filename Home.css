@@ -1,0 +1,273 @@
+*{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: darkred;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 16px 18px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: yellowgreen;
+  color: black;
+}
+
+.split{
+  display: inline;
+}
+.column1{
+  float: left;
+  width: 30%;
+
+  height: auto; 
+}
+.column2{
+  float: left;
+  width: 65%;
+  height: auto; 
+}
+
+ .userimg {
+
+    position: center;
+    width: 100%;
+    background: #fff;
+
+  }
+ .home_profile input{
+  width: 60%;
+  box-sizing: border-box;
+  padding: 10px 3px;
+  margin-top: 20px;
+  outline: none;
+  border: 2px solid yellowgreen;
+  background: #f1f1f1;
+  opacity: 0.8;
+  border-radius: 10px;
+  font-size: 16px;
+  color: #000;
+ }
+ .home_profile input:hover{
+  background: yellowgreen;
+  opacity: 0.8; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.requests{
+  box-sizing: border-box;
+  
+  margin-top: 530px;
+}
+
+
+.request_status {
+  box-sizing: border-box;
+  border-style: outset;
+  border-bottom-color: yellowgreen;
+  width: 100%;
+  border-radius: 5px;
+  
+  font-size: 16px;
+}
+#reqTable th{
+  text-align: left;
+  padding: 12px;
+  background-color: yellowgreen;
+}
+#reqTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+#reqTable tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#reqTable input{
+  box-sizing: border-box;
+  border-collapse: collapse;
+  width: 100%;
+  padding: 5px;
+  height: 100%;
+  border-radius: 3px;
+  border: 2px solid yellowgreen;
+  font-size:16px;
+  font-style: bold;
+}
+#accept:hover{
+ background: green;
+}
+#reject:hover{
+ background: red;
+}
+
+#reqTable tr.rheader, #reqTable tr:hover {
+  background-color: #f1f1f1;
+}
+
+
+
+
+
+
+
+
+.img{
+  width: 100;
+  height: 20px;
+}
+
+.split:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.dt{
+  width: 205px;
+  margin-top: 10px;
+  float: right;
+ 
+  overflow: hidden;
+  box-sizing: border-box;
+  border-bottom: 2px solid yellowgreen;
+  color: black;
+
+  font-family: sans-serif;
+  font-size: 28px;
+}
+
+.box {
+  box-sizing: border-box;
+  border-style: double;
+  width: 50%;
+  height: auto;
+  border-radius: 6px;
+  border: 2px solid yellowgreen; 
+  margin-left: 80px;
+  text-align: center;
+  margin-top: 155px;
+  margin-bottom: 40px;
+  background-color: #F5F5F5;
+  opacity: 1;
+}
+.box select{
+        width: 150px;
+        margin: 5px;
+    }
+.box  input{
+  width: 150px;
+  margin: 5px;
+}
+
+
+.header {
+  background-color: yellowgreen;;
+  padding: 0px;
+  text-align: center;
+  font-size: 20px;
+}
+
+
+
+.footer {
+  background-color: #f1f1f1;
+  padding: 0;
+  text-align: center;
+}
+.footer input{
+  border: 2px solid yellowgreen;
+  border-radius: 5px;
+  width: 10%;
+}
+
+.footer input[type=submit]:hover{
+  background: yellowgreen;
+
+  opacity: 0.8; 
+}
+#fetch_data{
+  box-sizing: border-box;
+  margin-right: 5px;
+  margin-top: 30px;
+}
+
+
+#myInput {
+
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 60%;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 3px solid yellowgreen;
+  margin-bottom: 12px;
+}
+
+#myTable {
+   
+  border-collapse: collapse;
+  width: 70%;
+  border-radius: 5px;
+  border: 3px solid yellowgreen;
+  font-size: 16px;
+}
+
+#myTable th{
+  text-align: left;
+  padding: 12px;
+  background-color: yellowgreen;
+}
+
+
+#myTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable input{
+  box-sizing: border-box;
+  border-collapse: collapse;
+  width: 100%;
+  border-radius: 2px;
+  border: 2px solid darkolivegreen;
+  font-size: 14px;
+}
+#myTable input:hover{
+ background: greenyellow;
+  opacity: 0.9; 
+}
+
+#myTable tr.header, #myTable tr:hover {
+  background-color: #f1f1f1;
+}
